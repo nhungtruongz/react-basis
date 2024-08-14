@@ -2,7 +2,7 @@
     "routes": [
         {
             "route": "/api/*",
-            "rewrite": "https://maxflowapp-f5akd3bwdqgjavhd.eastus2-01.azurewebsites.net"
+            "rewrite": "https://maxflow.app/api/wke-kepr-nzd"
         }
     ],
     "navigationFallback": {
