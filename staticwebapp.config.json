@@ -2,7 +2,7 @@
     "routes": [
         {
             "route": "/api/*",
-            "redirect": "https://maxflow.app/api/wke-kepr-nzd"
+            "rewrite": "https://maxflow.app/api/wke-kepr-nzd"
         }
     ],
     "navigationFallback": {
