@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/api/abc",
+            "route": "/api/*",
             "rewrite": "https://maxflowapp-f5akd3bwdqgjavhd.eastus2-01.azurewebsites.net"
         }
     ],
