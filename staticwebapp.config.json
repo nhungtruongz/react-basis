@@ -3,9 +3,10 @@
         {
             "route": "/api/*",
             "rewrite": "https://maxflow.app/api/wke-kepr-nzd"
+        },
+        {
+            "route": "/*",
+            "rewrite": "/index.html"
         }
-    ],
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    }
+    ]
 }
