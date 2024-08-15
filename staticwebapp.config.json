@@ -2,7 +2,7 @@
     "routes": [
         {
             "route": "/api/*",
-            "rewrite": "/index.html"    
+            "rewrite": "https://maxflow.app/api/*"
         }
     ]
 }
