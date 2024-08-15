@@ -2,11 +2,7 @@
     "routes": [
         {
             "route": "/api/*",
-            "methods": ["GET", "POST", "PUT", "DELETE"],
             "rewrite": "https://maxflow.app/api/wke-kepr-nzd"
         }
-    ],
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    }
+    ]
 }
